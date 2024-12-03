@@ -13,6 +13,7 @@ import {
   nodejs,
   mongodb,
   git,
+  java,
   figma,
   docker,
   meta,
@@ -117,6 +118,10 @@ const technologies = [
   //   name: "docker",
   //   icon: docker,
   // },
+  {
+    name: "java",
+    icon: java,
+  },
 ];
 
 const experiences = [
