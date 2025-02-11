@@ -28,6 +28,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import wipro from "./company/wipro.png";
 import tcs from "./company/tcs.png";
+import NTT from "./company/NTT.png";
+import Finastra from "./company/Finastra.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -71,4 +73,6 @@ export {
   DevFinder,
   StreamGPT,
   Foodylicious,
+  NTT,
+  Finastra,
 };

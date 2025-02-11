@@ -29,6 +29,8 @@ import {
   threejs,
   wipro,
   tcs,
+  NTT,
+  Finastra,
 } from "../assets";
 
 export const navLinks = [
@@ -52,7 +54,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Springboot Developer",
     icon: mobile,
   },
   {
@@ -60,28 +62,32 @@ const services = [
     icon: backend,
   },
   {
-    title: "Node.js Developer",
+    title: "Java Microservices Developer",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
   // {
   //   name: "TypeScript",
   //   icon: typescript,
   // },
+  {
+    name: "java",
+    icon: java,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -98,10 +104,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+   {
+     name: "HTML 5",
+     icon: html,
+   },
   // {
   //   name: "Three JS",
   //   icon: threejs,
@@ -118,38 +124,48 @@ const technologies = [
   //   name: "docker",
   //   icon: docker,
   // },
-  {
-    name: "java",
-    icon: java,
-  },
 ];
 
 const experiences = [
   {
-    title: "Big Data Developer",
-    company_name: "Wipro",
-    icon: wipro,
+    title: "Senior Associate IT dev. Services I",
+    company_name: "NTT DATA",
+    icon: NTT,
     iconBg: "#E6DEDD",
-    date: "Dec 2020 - Dec 2022",
+    date: "Jan 2021 - Oct 2021",
     points: [
-      "Developing and implementing data pipelines, reducing data processing time by 22% and increasing reliability.",
-      "Using Hive QL, SQL, Big Query as a regular part of work.",
-      "Optimizing data storage solutions, achieving significant cost savings and improved data retrieval times.",
+      "Developing Java/J2EE web applications with expertise in MySQL Database, API integration, and functionality enhancement using MVC architecture.",
+      "Using Java, MySql workbench and Postman as a regular part of work for dev and support of modules",
+      "Internal ITIL v4 certified with experience in handling global stakeholders in rotational shifts",
     ],
   },
   {
-    title: "Frontend Developer",
-    company_name: "TCS",
-    icon: tcs,
+    title: "Software Engineer",
+    company_name: "Finastra",
+    icon: Finastra,
     iconBg: "#E6DEDD",
-    date: "Dec 2022 - Present",
+    date: "Nov 2021 - Jan 2023",
     points: [
-      "Developing and maintaining user interfaces using React, enhancing user experience and performance.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Experienced in designing & developing Java LoanIQ application, integrating API, enhancing existing functionality of loan syndication & servicing modules.",
+      "Contributed to payments R&D, reducing issue reopen rates to under 5%.",
+      "Functional knowledge of loan management and loan syndication ",
       "Troubleshooting and resolving issues, ensuring robust and reliable software.",
     ],
   },
+  {
+    title: "Java Developer",
+    company_name: "Tata Consultancy Services",
+    icon: tcs,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Present",
+    points: [
+      "Enhanced code performance in distributed system by 35%, SQL query efficiency by 20% & batch processing performance increased 3x via multithreading.",
+      "Been to onsite for multiple client bank go-Live & successfully completed the project.",
+      "Integration using Java, Springboot, Microservices to handle multiple domestic and international payment service types.",
+      "Proficient in functional knowledge of payments domain, notable ones are IMPS/CTS/NEFT/RTGS/BULK payments.",
+      "Good at Linux-based troubleshooting, Cron jobs, scheduler automation & Jenkins deployment.",
+    ],
+  }
 ];
 
 const testimonials = [

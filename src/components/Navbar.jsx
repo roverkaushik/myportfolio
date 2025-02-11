@@ -23,7 +23,7 @@ const Navbar = () => {
         >
           <img src={logo} className="size-fit w-9 h-9 object-contain" />
           <p className="cursor-pointer text-white text-[18px] font-bold">
-            Manish
+            KAUSHIK
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

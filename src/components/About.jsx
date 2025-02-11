@@ -44,11 +44,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in Javascript, and
-        expertise in frameworks like React and Node.js. I'm a quick learner and
-        collaborate closely with clients to create efficient, scalable and
-        user-friendly solutions that solve real world problems. Let's work
-        together to bring your ideas to life!
+        Analytical IT professional with 4 years of experience in product development using Java, middleware & web
+        technologies. Skilled in LoanIQ, TCS BaNCS banking products focusing on loan management, domestic and international payment services,
+        with expertise in go-live facilitation & NPCI certification. Proficient in XML transformation, Linux server troubleshooting, tools like XMLSpy, WinSCP, Putty. Strong in MySQL, object-oriented
+        programming, problem-solving & team collaboration. Experienced in Eclipse, Tomcat, Jboss server providing production support for pre- and post-go-live project phases. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
