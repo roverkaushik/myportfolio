@@ -1,3 +1,3 @@
 ## Deployed Link
 
-https://manish-portfolio27.vercel.app/
+https://myportfolio-ten-ashen.vercel.app/
